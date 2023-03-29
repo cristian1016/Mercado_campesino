@@ -1,0 +1,148 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+main {
+    margin: 0 auto;
+}
+
+header {
+    background-color: #6DF135;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.men {
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.d {
+    color: black;
+    padding: 0px 110px 0px 0px;
+}
+
+.m {
+    font-size: 140%;
+    margin: 0px 600px 0px 0px;
+    padding: 0px 275px 0px 0px;
+
+}
+
+.login a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 12px;
+}
+
+.nombre a {
+    text-decoration: none;
+    background: rgb(16, 120, 54);
+    color: beige;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+.co a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 12px;
+    margin: 0px 40px 0px 300px;
+}
+
+.salir a {
+    text-decoration: none;
+    background: rgb(16, 120, 54);
+    color: beige;
+    border-radius: 100px;
+    padding: 12px;
+}
+
+hr {
+    border: #388f16 solid 1px;
+}
+
+.foto1 {
+    width: 90px;
+    margin: 15px 300px 15px 150px;
+}
+
+/*maria*/
+
+section {
+    display: flex;
+    width: 100%
+}
+
+section .bienvenidos {
+    background-image: url(/public/img/Diseño\ sin\ título\ \(1\).png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+}
+
+section .bienvenidos h1 {
+    padding-top: 20%;
+    color: #ffde59;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+section .bienvenidos h2 {
+    /* padding-bottom: 20%; */
+    font-size: 30px;
+}
+
+div .parrafo {
+    width: 400px;
+}
+
+.parrafo {
+    width: 100%;
+    height: 40vh;
+    padding-left: 60%;
+    text-align: center;
+    font-size: 20px;
+    z-index:1;
+}
+
+section .der {
+    background-image: url(/public/img/Diseño\ sin\ título.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 30%;
+    background-position-x: 10%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 86.2vh;
+}
+
+.der img {
+    display: flex;
+    padding-top: 15%;
+    padding-left: 22%;
+    width: 55%;
+    height: 45%;
+}
+
+footer {
+    background-color: #6DF135;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}

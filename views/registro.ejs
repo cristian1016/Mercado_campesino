@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/61834de3fd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/public/css/style_registro.css">
+    <link rel="shortcut icon" href="/public/img/logo.png" type="image/x-icon">
+    <title>R E G I S T R O</title>
+</head>
+
+<body>
+    <header>
+        <img class="foto1" src="/public/img/logo.png" alt="logo"/>
+        <h1>MERCADO CAMPESINO</h1>
+    </header>
+
+    <form action="/registro" method="post" class="form">
+        <div class="comunidad">
+            <h1>MERCADO CAMPESINO</h1>
+            <br>
+            <p class="comunidad">
+                FORMA PARTE DE NUESTRA COMUNIDAD
+            </p>
+        </div>
+
+        <div class="registro">
+
+            <div class="digitar">
+
+                <input name="nombres" type="text" required>
+                <label for="digitar">Ingresa Tu Nombre</label>
+            </div>
+
+            <div class="digitar">
+
+                <input name="apellidos" type="text" required>
+                <label for="digitar">Ingresa Tu Apellidos</label>
+            </div>
+
+            <div class="digitar">
+
+                <input name="correo" type="email" required>
+                <label for="digitar">Ingresa Tu Email</label>
+            </div>
+            <div class="digitar">
+                <input name="telefono" type="tel" required>
+                <label>Ingresa Tu telefono</label>
+            </div>
+
+            <div class="digitar">
+
+                <input name="contrasenia" type="password" required>
+                <label for="digitar">Nueva Contraseña</label>
+            </div>
+            <div class="digitar">
+
+                <input name="contraseñia" type="password" required>
+                <label for="digitar">Confrmar Contraseña<label>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+
+
+        <div class="buttom">
+            <a href="/interfaz-login"><input type="submit" value="Registrarse"></a>
+
+            <p class="comunity">¿Ya formas parte de nuestra comunidad? <a class="link" href="/interfaz-login">Iniciar
+                    sesion</a></p>
+
+        </div>
+    </form>
+</body>
+
+</html>
